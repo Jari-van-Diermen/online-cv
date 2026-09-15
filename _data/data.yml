@@ -8,24 +8,23 @@ sidebar:
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
-  name: Alan Doe
-  tagline: Full Stack Developer
+  name: Jacob Arie van Diermen
+  tagline: Software Engineer
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
-  email: example@email.com
-  phone: 012 345 6789
-  timezone: America/Cancun # Enter your timezone, e.g., America/Havana, Africa/Casablanca, America/North_Dakota/Center
+  email: jarivandiermen@outlook.com
+  phone: +31(0)653270827
   citizenship:
   website: https://example.com/ # Include the full website URL, including "http://" or "https://".
-  linkedin: alandoe
-  xing: alandoe
-  github: jekyll
+  linkedin: jari-van-diermen-99a49712a
+  xing:
+  github: Jari-van-Diermen
   telegram: # add your nickname without '@' sign
   gitlab:
   bitbucket:
-  bluesky: '@jekyllrb.bsky.social' # Specify your full Bluesky handle
-  twitter: '@jekyllrb'
+  bluesky: # Specify your full Bluesky handle
+  twitter:
   stack-overflow: # Number/Username, e.g. 123456/alandoe
   codewars:
   goodreads: # Number-Username, e.g. 123456-alandoe
@@ -37,14 +36,11 @@ sidebar:
   languages:
     title: Languages
     info:
-    - idiom: English
+    - idiom: Dutch
       level: Native
 
-    - idiom: French
-      level: Professional
-
-    - idiom: Spanish
-      level: Professional
+    - idiom: English
+      level: C2
 
   interests:
     title: Interests
@@ -53,212 +49,116 @@ sidebar:
       link:
 
 
-    - item: Snowboarding
+    - item: board games
       link:
 
 
-    - item: Cooking
+    - item: Reading (science fiction, anthropology)
       link:
 
 
 career-profile:
   title: Career Profile
   summary: |
-    Summarise your career here lorem ipsum dolor sit amet, consectetuer
-    adipiscing elit. You can [download this free resume/CV template here]().
-    Aenean commodo ligula eget dolor aenean massa. Cum sociis natoque
-    penatibus et magnis dis parturient montes, nascetur ridiculus mus.
-    Donec quam felis, ultricies nec, pellentesque eu.
-    Second paragraph if required.
+    During my bioinformatics experience and internships, I worked with large volumes of biological
+    data and computational methods. Through this, I discovered that my interest primarily
+    lay in the technical work itself, such as designing and setting up data preprocessing pipelines,
+    evaluating methodological choices, and writing and refining code.
+
+    A key insight I gained from this was that my fascination stemmed more from crafting the software
+    than from the biological findings that resulted from it. This realization has driven me
+    to consciously focus on developing my technical skills and advancing in the field of
+    software engineering.
 education:
   title: Education
   info:
-  - degree: MSc in Computer Science
-    university: University of London
-    time: 2011 - 2012
+  - degree: MSc Molecular and Cellular life sciences (MCLS)
+    university: Utrecht University
+    time: 2020 - 2023
     details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - degree: BSc in Applied Mathematics
-    university: Bristol University
-    time: 2007 - 2011
-    details: |
-      Describe your study here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum
-      sociis natoque penatibus et magnis dis parturient montes, nascetur
-      ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu,
-      pretium quis, sem.
-        - Bullet point
-        - Bullet point
+      Specialization: Biophysics & Molecular Imaging, Bioinformatics minor profile
 
+      During this master's program, I specialized in bioinformatics through fundamental research internships,
+      where I deepened my Python and R data analysis skills and gained experience with machine learning,
+      computational genomics, and bioinformatics techniques.
+  - degree: BSc in Biology (Cum laude)
+    university: Utrecht University
+    time: 2017 - 2020
+    details: |
+      Graduated with honors (Cum laude).
+
+      During this bachelor's program, I learned to model biological phenomena using mathematical models (ODEs), perform statistical analyses on biological data, and program in Python and R.
 experiences:
   title: Experiences
   info:
-  - role: Lead Developer
-    time: 2015 - Present
-    company: Startup Hubs, San Francisco
+  - role: Software Engineer
+    time: 2026-03 - present
+    company: Sogyo, De Bilt, The Netherlands
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem. Nulla consequat massa quis
-      enim. Donec pede justo. Sed ut perspiciatis unde omnis iste natus
-      error sit voluptatem accusantium doloremque laudantium, totam rem
-      aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-      architecto beatae vitae dicta sunt explicabo.
-        - Bullet point
-        - Bullet point
-  - role: Senior Software Engineer
-    time: 2014 - 2015
-    company: Google, London
+      During this intensive traineeship, I have developed myself broadly in various programming styles and in
+      approaching complex software problems in a structured manner. Subsequently, I contributed to the setup and
+      application of an advanced AI-driven workflow. I have applied this methodology to the construction of the
+      Sogyo Academy platform (.NET 10, React, RavenDB).
+
+      - **Full AI-Workflow & Agent Harnessing**: Setting up a multi-step AI-workflow with specialized AI-agents for spec-driven software development.
+      - **Human in the loop**: AI-workflow with built-in steps for human verification and approval.
+      - **Full-Stack & Security**: Direct incorporation of user requirements into the development process, including security (authentication/authorization) via Keycloak.
+      - **AI-workflow code quality**: Ensuring quality through an AI-integrated workflow with TDD, e2e-testing, Clean Architecture, and traceability.
+      - **DevOps**: CI/CD-pipelines for streamlined deployments.
+
+      *Crucial skills and experiences gained:*
+
+      - **Architecture & Design**: Layered architecture, SOA, CQRS, TDD and Agile/Scrum.
+      - **System design**: Design of robust application with UML and Clean Architecture.
+
+      *Technologies, Frameworks & Tools:*
+
+      - **Talen & Frameworks**: C#, Java, TypeScript, JavaScript, .NET Core, React, Next.js, Node.js
+      - **Databases & DevOps**: RavenDB, MySQL, Git, CI/CD, Keycloak, Tailwind CSS
+
+  - role: Phd candidate
+    time: 2024/09 - 2026/03
+    company: Hubrecht Institute, developmental epigenomics group (Jop Kind Group), Utrecht, The Netherlands
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-  - role: UI Developer
-    time: 2012 - 2014
-    company: Amazon, London
+      As a PhD candidate, I conducted research to better understand the fundamental
+      principles of genome regulation during development. This taught me how to process,
+      analyze and present large amounts of genomics data in HPC environments. Moreover, I developed pipelines
+      for preprocessing multimodal genomics data ([sciT-snakemake pipeline](https://github.com/Jari-van-Diermen/SciT_snakemake))
+      and an Accompanying R-package ([LoadSciLooms](https://github.com/Jari-van-Diermen/LoadSciLooms)),
+      both of which aid the lab in its research efforts.
+  - role: Research assistant
+    time: 2023/07 - 2024/03
+    company: Karolinska Institutet, Clinical Neurosciences (Robert Harris Group), Solna, Sweden
     details: |
-      Describe your role here lorem ipsum dolor sit amet, consectetuer
-      adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa.
-      Cum sociis natoque penatibus et magnis dis parturient montes,
-      nascetur ridiculus mus. Donec quam felis, ultricies nec,
-      pellentesque eu, pretium quis, sem.
-        - Bullet point
-        - Bullet point
-
-certifications:
-  title: Certifications
-  list:
-  - name: CV Builder
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
+      As a continuation of my work as a research intern, I improved the computational
+      pipeline for evolutionary inference with improved parallelization, data cleaning, documentation
+      and **Docker containerization** for reproducibility. Additionally, I developed a
+      [data dashboard using **R shiny**](https://jari-van-diermen-shiny-app-acomys.share.connect.posit.cloud/)
+      to improve exploration of the pipeline results. This allowed me to further improve my **Python**, **R**
+      and **Bash** programming expertise 
+  - role: Teaching assistant
+    time: 2023/02 - 2023/05
+    company: Utrecht university, Department of Biology, Utrecht, The Netherlands
     details: |
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
-  - name: Git learning
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
+      As a teaching assistant for the course *Kwantitatieve biologie (B-B1KWBI20)*,
+      I helped first-year biology students grasp statistical concepts and R programming.
+  - role: Research intern
+    time: 2022/05 - 2023/03
+    company: Karolinska Institutet, Clinical Neurosciences (Robert Harris Group), Solna, Sweden
     details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+      As a research intern, I have created a computational pipeline that uses evolutionary
+      inference to better predict which genes are relevant for the regenerative
+      wound-healing in the African Spiny mice. I gained extensive experience in
+      **high performance computing (SLURM)**, programming (**R**, **Python** and **Bash**) and
+      version control (**Git**, **Github**). Additionally, I learned to present and report my findings.
 
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
-
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
-
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
-
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
-
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
-
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
-
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
-
-  - title: A syntax directed compiler for Algol 60
-    link: "#"
-    authors: Edgar T. Irons
-    conference: "Comm. ACM 4 (1961), 51–55"
-
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
-
-      He is a great employee!
+  - role: Research intern
+    time: 2021/01 - 2022/03
+    company: Utrecht university, Cell biology, neurobiology and biophysics, Anna Akhmanova Group (Cellular dynamics)
+    details: |
+      As a research intern, I studied proteins affecting cellular structure. This
+      taught me extensive lab skills, in addition to planning and presenting
+      experimental results.
 
 skills:
   title: Skills &amp; Proficiency
