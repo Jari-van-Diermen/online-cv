@@ -265,22 +265,55 @@ p {
 }
 
 .skillset {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+
   .item {
-    margin-bottom: 15px;
-    overflow: hidden;
+    display: flex;
+    flex-direction: row; 
+    align-items: stretch; /* Stretches the border to match full height of wrapped list */
   }
+
   .level-title {
+    width: 30%; 
+    flex-shrink: 0;
     font-size: 14px;
-    margin-top: 0;
-    margin-bottom: 12px;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1.4;
+    color: #2e6b77; /* Set to your $theme-color variable */
+    
+    /* Vertical separator line */
+    border-right: 2px solid #2e6b77; /* Matches group name color */
+    padding-right: 14px;
+    margin-right: 14px;
   }
-  .level-bar {
-    height: 12px;
-    background: $smoky-white;
-  }
-  .level-bar-inner {
-    height: 12px;
-    background: lighten($theme-color, 15%);
+
+  .skills-list {
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 0;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li {
+      line-height: 1.4;
+      white-space: nowrap;
+
+      &:not(:last-child)::after {
+        content: "•";
+        margin: 0 8px;
+        color: #999;
+      }
+
+      .skill-name {
+        font-size: 14px;
+        color: #495057;
+      }
+    }
   }
 }
 
