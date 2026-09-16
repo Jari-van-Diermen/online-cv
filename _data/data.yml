@@ -16,7 +16,7 @@ sidebar:
   email: jarivandiermen@outlook.com
   phone: +31(0)653270827
   citizenship:
-  website: https://example.com/ # Include the full website URL, including "http://" or "https://".
+  website: # Include the full website URL, including "http://" or "https://".
   linkedin: jari-van-diermen-99a49712a
   xing:
   github: Jari-van-Diermen
@@ -119,38 +119,44 @@ experiences:
   - role: Phd candidate
     time: 2024/09 - 2026/03
     company: Hubrecht Institute, developmental epigenomics group (Jop Kind Group), Utrecht, The Netherlands
-    details: |
-      As a PhD candidate, I conducted research to better understand the fundamental
-      principles of genome regulation during development. This taught me how to process,
-      analyze and present large amounts of genomics data in HPC environments. Moreover, I developed pipelines
-      for preprocessing multimodal genomics data ([sciT-snakemake pipeline](https://github.com/Jari-van-Diermen/SciT_snakemake))
-      and an Accompanying R-package ([LoadSciLooms](https://github.com/Jari-van-Diermen/LoadSciLooms)),
-      both of which aid the lab in its research efforts.
+    details: |   
+      As a PhD candidate, I conducted bioinformatic research to better understand the fundamental
+      principles of genome regulation during development. This taught me how to:
+
+      - Process, analyze and present large amounts of genomics data in HPC environments.
+      - Develop pipelines for preprocessing multimodal genomics data ([sciT-snakemake pipeline](https://github.com/Jari-van-Diermen/SciT_snakemake)).
+      - Develop an accompanying R-package for data loading ([LoadSciLooms](https://github.com/Jari-van-Diermen/LoadSciLooms)).
+
   - role: Research assistant
     time: 2023/07 - 2024/03
     company: Karolinska Institutet, Clinical Neurosciences (Robert Harris Group), Solna, Sweden
     details: |
       As a continuation of my work as a research intern, I improved the computational
       pipeline for evolutionary inference with improved parallelization, data cleaning, documentation
-      and **Docker containerization** for reproducibility. Additionally, I developed a
-      [data dashboard using **R shiny**](https://jari-van-diermen-shiny-app-acomys.share.connect.posit.cloud/)
-      to improve exploration of the pipeline results. This allowed me to further improve my **Python**, **R**
-      and **Bash** programming expertise 
+
+      - Utilized **Docker-containerization** for improved reproducibility.
+      - Developed a [data dashboard](https://jari-van-diermen-shiny-app-acomys.share.connect.posit.cloud/)
+        using **R Shiny** for exploring evolutionary data.
+      - Further developed Programming proficiency in **Python**, **R** en **Bash**.
+
   - role: Teaching assistant
     time: 2023/02 - 2023/05
     company: Utrecht university, Department of Biology, Utrecht, The Netherlands
     details: |
       As a teaching assistant for the course *Kwantitatieve biologie (B-B1KWBI20)*,
       I helped first-year biology students grasp statistical concepts and R programming.
+
   - role: Research intern
     time: 2022/05 - 2023/03
     company: Karolinska Institutet, Clinical Neurosciences (Robert Harris Group), Solna, Sweden
     details: |
       As a research intern, I have created a computational pipeline that uses evolutionary
-      inference to better predict which genes are relevant for the regenerative
-      wound-healing in the African Spiny mice. I gained extensive experience in
-      **high performance computing (SLURM)**, programming (**R**, **Python** and **Bash**) and
-      version control (**Git**, **Github**). Additionally, I learned to present and report my findings.
+      inference to better predict the relevancy of genes for the regenerative
+      wound-healing in the African Spiny mice.
+
+      - Utilized **high-performance computing (SLURM)** for efficient resource management.
+      - Gained extensive experience in programming with **R**, **Python**, and **Bash**.
+      - Applied version control with **Git** and **GitHub**.
 
   - role: Research intern
     time: 2021/01 - 2022/03
@@ -161,26 +167,116 @@ experiences:
       experimental results.
 
 skills:
-  title: Skills &amp; Proficiency
+  title: Skills
 
   toolset:
-  - name: Python & Django
-    level: 98%
+  - group: Programming & Scripting
+    skills:
+    - R
+    - Python
+    - Java
+    - C#
+    - Scala
+    - JavaScript
+    - TypeScript
+    - Bash
+    - LaTeX
 
-  - name: Javascript & jQuery
-    level: 98%
+  - group: Frameworks & Libraries
+    skills:
+    - React
+    - Express (Backend / Node.js)
+    - Next.js
+    - .NET
+    - ASP.NET / ASP.NET Core
 
-  - name: Angular
-    level: 98%
+  - group: Web servers & Runtimes
+    skills:
+    - Node.js
+    - Jetty (Java)
+    - Kestrel
 
-  - name: HTML5 & CSS
-    level: 95%
+  - group: Containerization
+    skills:
+    - Docker
+    - Singularity
 
-  - name: Ruby on Rails
-    level: 85%
+  - group: Workflow management
+    skills:
+    - Snakemake
+    - Nextflow
 
-  - name: Sketch & Photoshop
-    level: 60%
+  - group: Version control
+    skills:
+    - Git
+    - Github
+    - Gitlab
+    - CI/CD (gitlab CI/CD)
+
+  - group: Agile
+    skills:
+    - Scrum
+    - Kanban
+
+  - group: E2E testing
+    skills:
+    - Cypress
+
+  - group: Augmented engineering
+    skills:
+    - AI-agents and skills
+    - Context space
+    - Harnessing
+
+  - group: Build Tooling & Automation
+    skills:
+    - Gradle
+    - Maven
+    - Sbt
+    - Vite (Frontend / JavaScript)
+
+  - group: Package management
+    skills:
+    - Conda (miniconda, miniforge)
+    - NuGet
+
+  - group: OS
+    skills:
+    - Windows
+    - MacOS
+    - Linux (i.e. Debian, Ubuntu, Fedora)
+
+  - group: High Performance computing
+    skills:
+    - SLURM
+
+  - group: Image analysis
+    skills:
+    - Fiji/ImageJ
+
+  - group: IDEs
+    skills:
+    - IntelliJ IDEA
+    - Visual Studio Code
+    - Rstudio
+
+  - group: Software architecture & Design
+    skills:
+    - Unified modeling language (UML)
+    - CRC cards
+    - Service-based architectures
+    - CQRS
+    - Layered architecture (e.g. MVC)
+
+  - group: Databases
+    skills:
+    - MySQL
+    - KurrentDB (EventStoreDB)
+    - RavenDB
+
+  - group: IAM
+    skills:
+    - Keycloak
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
