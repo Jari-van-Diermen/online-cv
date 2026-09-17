@@ -234,6 +234,7 @@ skills:
     - Maven
     - Sbt
     - Vite (Frontend / JavaScript)
+    - .NET CLI
 
   - group: Package management
     skills:
